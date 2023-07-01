@@ -1,6 +1,7 @@
 import 'package:app_one/SmartUI.dart';
 import 'package:app_one/listview.dart';
 import 'package:app_one/loginpage.dart';
+import 'package:app_one/pages/home_page.dart';
 import 'package:app_one/widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  SmartUI(),
+      home:  HomePage(),
     );
   }
 }
